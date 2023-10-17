@@ -1,0 +1,93 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.page-container {
+    background-color: #ffffff;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 60px; /* Ajusta el valor de padding-bottom según la altura del pie de página */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #007bff;
+}
+
+form {
+    margin: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    width: 200px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#resultado {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilos para las casillas de imágenes */
+.image-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.expandable-image {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.expandable-image:hover {
+    transform: scale(1.1);
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+}
+/* Estilos para las casillas de imágenes */
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden; /* Añade esta línea para ocultar el desbordamiento */
+}
+
+.expandable-image {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.expandable-image:hover {
+    transform: scale(1.1);
+}
